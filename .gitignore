@@ -1,0 +1,64 @@
+# Python-specific
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.log
+*.swp
+*.swo
+
+# Virtual environments
+venv/
+env/
+.venv/
+*.venv/
+
+# IDE-specific
+.vscode/
+.idea/
+
+# Compiled files
+*.class
+*.o
+*.pyc
+*.pyo
+
+# Dependency directories
+dist/
+build/
+site/
+*.egg-info/
+
+# Ignore sensitive data (customize as needed)
+secrets.ini
+config.ini
+*.env
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore cache and temporary files
+.cache/
+.tmp/
+.temp/
+*.tmp
+*.temp
+
+# Ignore coverage reports
+.coverage
+.coverage.*
+htmlcov/
+
+# Ignore generated documentation
+docs/_build/
+
+# Ignore compiled extensions
+*.so
+*.dll
+*.pyd
+
+# Ignore system-specific files
+Thumbs.db
+.DS_Store
